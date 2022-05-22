@@ -1,0 +1,46 @@
+<!-- Colton Williams 5/22/22 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding challenge</title>
+    <meta charset="UTF-8" />
+
+    <!-- JS file -->
+    <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <!-- Main div for centering -->
+    <div id="main-container">
+      <br />
+      <br />
+      <h1>Fun with AI</h1>
+
+      <!-- Input for a query -->
+      <label for="text-input">Enter Prompt:</label>
+      <textarea cols="50" rows="10" id="text-input"></textarea>
+      <br />
+      <button id="submit-button">Submit</button>
+
+      <!-- Examples dropdown list -->
+      <label for="examples-list">Or choose an example:</label>
+      <select name="examples-list" id="examples-list">
+        <option value="-1" selected></option>
+        <option value="Hey what's up">Hey what's up</option>
+        <option value="Write a poem about a dog wearing skis"
+          >Write a poem about a dog wearing skis</option
+        >
+        <option value="What is 2 + 2">What is 2 + 2</option>
+        <option value="What's the weather">What's the weather</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <h2>Responces</h2>
+
+      <!-- List for responces -->
+      <ul id="responces-list"></ul>
+    </div>
+  </body>
+</html>
